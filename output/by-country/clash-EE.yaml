@@ -5,17 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
-  server: 194.26.141.223
+  server: ee-central.v8x2b.lol
   port: 443
   udp: true
   type: vless
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  uuid: 846cedee-2a52-0001-a0b9-11850ead6a8b
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: afee962d
-  servername: ee1.mycloud1.org
+    public-key: USSepsAbvP9LpByHLV2xD2H8dq8GAJ6G0fINEqD4PAw
+  servername: ee-central.v8x2b.lol
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES

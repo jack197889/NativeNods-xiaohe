@@ -19,11 +19,11 @@ proxies:
   client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 02 - xiaohe
   server: 31.57.185.124
-  port: 41957
+  port: 47767
   udp: true
   type: ss
   cipher: 2022-blake3-aes-256-gcm
-  password: aJzB4p6wYQF+OEbPk2VmV3JvdFo/K4YVuBqjBEmkf+o=:fzmWR6oEtp740EsWBupO/siQ7E/XBZ5ZWJYweJgm420=
+  password: LdovOchXf4THjDMK2Gf0nd2tcnlT28GxdzH+r885CBI=:nrG68IfAsyrT5ISL5N8T0lC+R3YEQqX/aFSztVQGAdU=
 - name: 🇮🇱 以色列 (Israel) 03 - xiaohe
   server: 77.91.69.169
   port: 19226
@@ -36,7 +36,7 @@ proxies:
     public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
     short-id: 7c
   servername: yahoo.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
