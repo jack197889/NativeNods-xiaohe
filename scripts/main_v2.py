@@ -54,7 +54,6 @@ except ImportError as e:
 
 SOURCE_URLS = [
     "https://cdn.jsdelivr.net/gh/free18/v2ray@main/v.txt",
-    "https://raw.githubusercontent.com/freefq/free/master/v2",
     "https://www.ermao.net/sub/v2ray/ermao.net",
     "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt",
     "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-JP.txt",
@@ -67,8 +66,20 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/10ium/HiN-VPN/main/subscription/base64/hysteria2",
     "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/configs_base64.txt",
     "https://raw.githubusercontent.com/yy1588133/proxy-pool/main/v2ray.txt",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
     "https://sub.445569.xyz/",
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/refs/heads/master/ConfigSub_list.txt",
+    # 额外高更新频率聚合源（含 JP/NL/TW/AU 等）
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/config.txt",
+    "https://raw.githubusercontent.com/Alirewa/V2ray-Configs/main/sub1.txt",
+    "https://raw.githubusercontent.com/free-nodes/v2rayfree/main/sub",
+    "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/nodes.txt",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list_raw.txt",
+    # ── 2026-10 新增：多源聚合 + 真实测活（日更或更快）──
+    "https://raw.githubusercontent.com/Mahdi0024/ProxyCollector/master/sub/proxies.txt",   # sing-box 测活，24h
+    "https://raw.githubusercontent.com/ishalumi/proxy-node-collector/main/output/nodes_base64.txt",  # 聚合15个仓库，6h
 ]
 
 OUTPUT_DIR = "output"
