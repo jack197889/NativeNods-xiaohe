@@ -17,31 +17,17 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇺🇦 乌克兰 (Ukraine) 02 - xiaohe
-  server: 216.24.57.225
-  port: 2083
-  udp: true
-  type: vless
-  uuid: 3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6
-  tls: true
-  servername: pol.netvia.ir
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: pol.netvia.ir
-- name: 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
   server: 104.253.216.227
   port: 443
   udp: true
   type: vless
-  uuid: de38389f-5651-4f2f-8276-5aabf3b861c9
+  uuid: 317bc783-340f-453c-afb5-b6bf637c0b23
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
     public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 225e930cfd4d
-  servername: www.hollywoodreporter.com
+    short-id: fc994ae7eb10
+  servername: www.tradingview.com
   client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
@@ -50,7 +36,6 @@ proxy-groups:
   - AUTO
   - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
   - 🇺🇦 乌克兰 (Ukraine) 02 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,6 +43,5 @@ proxy-groups:
   proxies:
   - 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
   - 🇺🇦 乌克兰 (Ukraine) 02 - xiaohe
-  - 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
 rules:
 - MATCH,PROXIES
