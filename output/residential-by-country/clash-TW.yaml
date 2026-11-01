@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  server: 684616s4.df6h451rh.xin
-  port: 443
+  server: ench-snet-app.w-ctrip.cn
+  port: 45503
   udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: 684616s4.df6h451rh.xin
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  server: er8u54dh.df6h451rh.xin
-  port: 443
+  server: ench-snet-app.w-ctrip.cn
+  port: 45502
   udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: er8u54dh.df6h451rh.xin
+  type: trojan
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  sni: cm.g.doubleclick.net
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
