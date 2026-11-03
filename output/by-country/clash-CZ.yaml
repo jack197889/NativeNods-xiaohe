@@ -5,17 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 195.123.245.241
+  server: 193.124.17.190
   port: 443
   udp: true
   type: vless
-  uuid: 7c053ca8-38cc-45e2-930c-eda1fd66f903
+  uuid: ed042cf7-efe0-49bd-848b-8d7e655111ff
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: hlY5ce1UsVIgE46y5PlEZhUsSaXUnCtoDLLaGrhInjw
-    short-id: 23d0950d60bc0d5b
-  servername: gateway.icloud.com
+    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
+    short-id: 1036b2383b72
+  servername: www.mozilla.org
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
