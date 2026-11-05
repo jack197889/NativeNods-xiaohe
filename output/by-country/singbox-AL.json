@@ -4,12 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇦🇱 AL 01 - xiaohe",
-      "server": "pg1.rmastore.ir",
-      "server_port": 3043,
-      "method": "aes-256-gcm",
-      "password": "c5PtLhylY5r3jJQ6XlzGiOdXeYYlhu-k"
+      "server": "bot.vudfaro.ir",
+      "server_port": 5051,
+      "uuid": "7df4f23f-b361-412a-883a-54dfdb5b8c8f"
     },
     {
       "type": "selector",
