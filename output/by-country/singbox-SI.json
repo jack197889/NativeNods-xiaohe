@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
-      "server": "149.104.121.174",
-      "server_port": 8443,
-      "uuid": "1506f2e0-ae12-4718-b5ab-c5609161300e",
+      "tag": "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe",
+      "server": "92.42.201.160",
+      "server_port": 14443,
+      "uuid": "a60da2ca-0abf-49f8-9dcb-156989d76ad2",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "as10.cdn77.icu",
+        "server_name": "node-slo05.rkitman.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
-          "short_id": ""
+          "public_key": "fmZQYGYXw4xYtiuMFvH4Dgse1DBoGazt-vWM7LOdchY",
+          "short_id": "e013fa99a81badcc"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
+        "🇸🇮 斯洛文尼亚 (Slovenia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
