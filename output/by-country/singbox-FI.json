@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vmess",
       "tag": "🇫🇮 芬兰 (Finland) 01 - xiaohe",
-      "server": "92.242.165.40",
-      "server_port": 8443,
-      "password": "2f0fccb6-4a86-4d9f-9e03-a2dfee6ed7f5",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtestmark.com",
-        "insecure": false
-      }
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "45dc10c6-04c8-4c70-a06a-d396254a6c0b",
+      "security": "auto"
     },
     {
       "type": "vless",
@@ -26,7 +22,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
@@ -38,6 +34,20 @@
     {
       "type": "vless",
       "tag": "🇫🇮 芬兰 (Finland) 03 - xiaohe",
+      "server": "45.144.234.157",
+      "server_port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
       "server": "89.144.53.4",
       "server_port": 8445,
       "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
@@ -47,26 +57,12 @@
         "server_name": "videos.porsche.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
           "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
           "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 04 - xiaohe",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "transport": {
-        "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
         }
       }
     },
@@ -92,29 +88,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-      "server": "cd0.bmi.ir.kolman.com.de",
-      "server_port": 80,
-      "uuid": "875942c6-1d42-4681-b49b-521a2bf10e8c",
-      "security": "auto",
-      "transport": {
-        "type": "httpupgrade",
-        "path": "/f9bGbG7ZNy5L0tzXKZNxSX4q",
-        "host": "bmi.ir.draft.co.impossible.com.ir.bmi.ir.com.iran.ir6.ifilmino.com"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇫🇮 芬兰 (Finland) 07 - xiaohe",
-      "server": "6.bmi.ir.asopardaz.ir",
-      "server_port": 35176,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "NjcyNmVjMTU1ZWU5NDA5ZDk0ODg1NWM1MzJjZTE3NDk=:ODc1OTQyYzYxZDQyNDY4MWI0OWI1MjFhMmJmMTBlOGM="
-    },
-    {
       "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 08 - xiaohe",
+      "tag": "🇫🇮 芬兰 (Finland) 06 - xiaohe",
       "server": "146.103.118.189",
       "server_port": 443,
       "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
@@ -132,52 +107,22 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-      "server": "6.bmi.ir.asopardaz.ir",
-      "server_port": 8443,
-      "uuid": "875942c6-1d42-4681-b49b-521a2bf10e8c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "timeline.www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs",
-          "short_id": "e915"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 芬兰 (Finland) 10 - xiaohe",
-      "server": "mein-1.octavia.dpdns.org",
-      "server_port": 60000,
-      "password": "xo43w4tc13ou2h3x",
-      "tls": {
-        "enabled": true,
-        "server_name": "main-1.octavia.dpdns.org",
-        "insecure": false
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "ckwudzzsfoltmbmi"
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇫🇮 芬兰 (Finland) 11 - xiaohe",
-      "server": "104.24.0.1",
+      "tag": "🇫🇮 芬兰 (Finland) 07 - xiaohe",
+      "server": "188.114.96.3",
       "server_port": 2053,
       "password": "gHQP0D7D15",
       "tls": {
         "enabled": true,
         "server_name": "marvdasht.phonecomparisonblog.org",
-        "insecure": true
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
@@ -198,11 +143,7 @@
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
         "🇫🇮 芬兰 (Finland) 05 - xiaohe",
         "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 07 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 08 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 10 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 11 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 07 - xiaohe"
       ]
     },
     {
@@ -215,11 +156,7 @@
         "🇫🇮 芬兰 (Finland) 04 - xiaohe",
         "🇫🇮 芬兰 (Finland) 05 - xiaohe",
         "🇫🇮 芬兰 (Finland) 06 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 07 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 08 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 09 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 10 - xiaohe",
-        "🇫🇮 芬兰 (Finland) 11 - xiaohe"
+        "🇫🇮 芬兰 (Finland) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
