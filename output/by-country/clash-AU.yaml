@@ -23,13 +23,13 @@ proxies:
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  server: user02.godvpn.lol
-  port: 62405
+  server: au001.zestapp778.com
+  port: 54374
   udp: true
-  type: anytls
-  password: 4bbfa33a-449a-4a50-8dfc-6d0de880f7bc
-  sni: user02.godvpn.lol
-  skip-cert-verify: true
+  type: trojan
+  password: 5t6i121em5lkmsmk
+  sni: au001.zestapp778.com
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

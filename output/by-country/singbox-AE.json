@@ -38,11 +38,15 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "transport": {
-        "type": "ws"
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
       }
     },
     {
@@ -62,34 +66,13 @@
     {
       "type": "trojan",
       "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-      "server": "157.254.38.210",
-      "server_port": 20123,
+      "server": "sclass-c1.catcat321.com",
+      "server_port": 20086,
       "password": "d9064589-74af-432a-9390-5d8a9da281bf",
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "server": "LaVa.R6j.Ir",
-      "server_port": 8111,
-      "uuid": "7ff79f4e-e902-4308-91db-410c6db1310a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "tgju.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "NKnJ79aZqPZWW8_xmiZX1o3-4UVZgC-yJsbVnwucaT8",
-          "short_id": "c9c5a6b5c022de8d"
-        }
       }
     },
     {
@@ -102,8 +85,7 @@
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 06 - xiaohe"
       ]
     },
     {
@@ -115,8 +97,7 @@
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

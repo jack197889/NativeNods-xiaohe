@@ -16,19 +16,8 @@ proxies:
     public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
     short-id: 41ae8e266bc3346f
   servername: ee2.japancase.site
-  client-fingerprint: ''
+  client-fingerprint: chrome
 - name: 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  server: 168.113.128.70
-  port: 20105
-  udp: true
-  type: vless
-  uuid: 9aff658c-1f80-4c82-9213-48ca26996142
-  flow: xtls-rprx-vision
-  tls: true
-  servername: ripelever.net
-  skip-cert-verify: false
-  client-fingerprint: edge
-- name: 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
   server: 45.86.60.174
   port: 16443
   udp: true
@@ -41,7 +30,6 @@ proxy-groups:
   - AUTO
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -49,6 +37,5 @@ proxy-groups:
   proxies:
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
-  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 rules:
 - MATCH,PROXIES

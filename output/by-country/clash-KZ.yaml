@@ -16,31 +16,19 @@ proxies:
     public-key: eV6ewGF7oTHf2pTQHKYvwJt-vU8hUC-1CjiUl20HtXE
     short-id: 4000cdda6278d236
   servername: kz1.japancase.site
-  client-fingerprint: firefox
+  client-fingerprint: ''
 - name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe
   server: 3h-kazakhstan1.09vpn.com
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /vmess/
-- name: 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
-  server: 95.143.188.113
-  port: 443
+  port: 8443
   udp: true
   type: vless
-  uuid: c47159bb-2c15-440d-b239-8594d7e7efbb
+  uuid: 2424febb-43cb-488d-bdd1-401e923c8e48
   tls: true
-  servername: tz5gtjwlki.j.cloudfront.hls.hlsnode.net
+  servername: 3h-kazakhstan1.09vpn.com
   skip-cert-verify: false
-  client-fingerprint: safari
-  network: grpc
-  grpc-opts:
-    grpc-service-name: sync.v1
+  network: ws
+  ws-opts:
+    path: /vless/
 proxy-groups:
 - name: PROXIES
   type: select
@@ -48,7 +36,6 @@ proxy-groups:
   - AUTO
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,6 +43,5 @@ proxy-groups:
   proxies:
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe
   - 🇰🇿 哈萨克斯坦 (Kazakhstan) 02 - xiaohe
-  - 🇰🇿 哈萨克斯坦 (Kazakhstan) 03 - xiaohe
 rules:
 - MATCH,PROXIES
