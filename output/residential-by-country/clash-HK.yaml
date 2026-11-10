@@ -4,30 +4,45 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
-  server: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  server: dog-hk.kunlun01dns.com
+  port: 21020
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
+  server: dog-hk.kunlun01dns.com
+  port: 21041
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  server: f675b7ac-tmeqo0-0-1imi4.hk3.hyhuawei.com
   port: 443
   udp: true
-  type: tuic
-  uuid: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  sni: 54fb07dd-tk7400-toh6wi-jx5r.pccw3.hyhuawei.com
-  skip-cert-verify: false
-  congestion-controller: bbr
-  udp-relay-mode: native
-  alpn:
-  - h3
+  type: hysteria2
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  sni: f675b7ac-tmeqo0-0-1imi4.hk3.hyhuawei.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
