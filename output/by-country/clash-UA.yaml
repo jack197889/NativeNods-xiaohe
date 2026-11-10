@@ -18,19 +18,6 @@ proxies:
   servername: www.bing.com
   client-fingerprint: qq
 - name: 🇺🇦 乌克兰 (Ukraine) 02 - xiaohe
-  server: 104.253.216.227
-  port: 443
-  udp: true
-  type: vless
-  uuid: 594d466e-8ac3-4fda-b1d1-eeb817853518
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
-    short-id: 5a018643df03
-  servername: www.microsoft.com
-  client-fingerprint: firefox
-- name: 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
   server: 31.222.235.81
   port: 443
   udp: true
@@ -41,6 +28,19 @@ proxies:
     public-key: L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk
     short-id: d8b58872
   servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇺🇦 乌克兰 (Ukraine) 03 - xiaohe
+  server: 104.253.216.227
+  port: 443
+  udp: true
+  type: vless
+  uuid: 106d20f6-d70a-40e2-b69b-8e82baf8d117
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg
+    short-id: 60500a63ad12
+  servername: www.microsoft.com
   client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
