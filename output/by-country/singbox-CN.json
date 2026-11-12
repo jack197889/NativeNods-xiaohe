@@ -8,11 +8,10 @@
       "tag": "🇨🇳 CN 01 - xiaohe",
       "server": "39.108.113.127",
       "server_port": 10086,
-      "uuid": "b0253c6c-0b96-4950-bde1-669f13bc1a01",
+      "uuid": "74e07df3-f82a-4791-987f-247c3c395866",
       "security": "auto",
       "transport": {
-        "type": "ws",
-        "path": "/"
+        "type": "ws"
       }
     },
     {

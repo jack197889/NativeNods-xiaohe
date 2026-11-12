@@ -13,14 +13,6 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇹🇭 泰国 (Thailand) 02 - xiaohe
-  server: th001.zestapp778.com
-  port: 33079
-  udp: true
-  type: trojan
-  password: 5t6i121em5lkmsmk
-  sni: th001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
   server: 23.95.72.244
   port: 5458
   udp: true
@@ -33,6 +25,14 @@ proxies:
     short-id: ba80520852fb9c25
   servername: api.adidas.com
   client-fingerprint: chrome
+- name: 🇹🇭 泰国 (Thailand) 03 - xiaohe
+  server: 8.213.209.1
+  port: 18918
+  udp: true
+  type: vmess
+  uuid: 6d64789a-4d5e-4ef7-c9ac-0fc543b4e635
+  alterId: 0
+  cipher: auto
 proxy-groups:
 - name: PROXIES
   type: select

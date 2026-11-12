@@ -15,7 +15,7 @@
         "server_name": "cloudflare-dns.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -48,22 +48,36 @@
     {
       "type": "vless",
       "tag": "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
-      "server": "23.95.72.244",
-      "server_port": 54468,
-      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
-      "flow": "xtls-rprx-vision",
+      "server": "191.44.112.170.sslip.io",
+      "server_port": 443,
+      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
       "tls": {
         "enabled": true,
-        "server_name": "api.adidas.com",
+        "server_name": "orbylume.my.to",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lzrZgPuEIioo0ZRjytB59mywVRsQzIAvuhqiMRUIsQU",
-          "short_id": "853c1d768b"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tvpn-tor/sc",
+        "headers": {
+          "Host": "orbylume.my.to"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe",
+      "server": "156.239.224.107",
+      "server_port": 57278,
+      "uuid": "1270bed5-f908-4ecc-f1c8-de246033b186",
+      "security": "auto",
+      "transport": {
+        "type": "ws",
+        "path": "/"
       }
     },
     {
@@ -73,7 +87,8 @@
         "auto",
         "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
+        "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe"
       ]
     },
     {
@@ -82,7 +97,8 @@
       "outbounds": [
         "🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe",
         "🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe",
-        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe"
+        "🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe",
+        "🇸🇨 塞舌尔 (Seychelles) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
