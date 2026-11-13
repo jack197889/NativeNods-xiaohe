@@ -7,17 +7,17 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 01 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9012,
+      "server_port": 9011,
       "method": "aes-256-cfb",
-      "password": "xaupMUvhptwxdDUg"
+      "password": "M3t2ZEQcMGRWBjRa"
     },
     {
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9086,
+      "server_port": 9002,
       "method": "aes-256-cfb",
-      "password": "37Z4TFCYhfxcpc9Q"
+      "password": "b8KkNDjEd5QqFyRm"
     },
     {
       "type": "shadowsocks",
@@ -47,30 +47,9 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9011,
+      "server_port": 9012,
       "method": "aes-256-cfb",
-      "password": "M3t2ZEQcMGRWBjRa"
-    },
-    {
-      "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe",
-      "server": "23.95.72.244",
-      "server_port": 53213,
-      "uuid": "9a5e7b1c-bf39-4b1f-891f-ac87824ee38f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.adidas.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "DPhQNdv-mJEyLG7ifmvXUejKMTJSiwtGaTIthoGMbUY",
-          "short_id": "29cbf3d804bd"
-        }
-      }
+      "password": "xaupMUvhptwxdDUg"
     },
     {
       "type": "selector",
@@ -82,8 +61,7 @@
         "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 04 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe"
       ]
     },
     {
@@ -95,8 +73,7 @@
         "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 04 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
