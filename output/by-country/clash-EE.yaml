@@ -5,13 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
-  server: nlll.obxodvpn.us
+  server: hy2-eee-1.aloranode.top
   port: 443
   udp: true
   type: hysteria2
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: nlll.obxodvpn.us
-  skip-cert-verify: true
+  password: b36a14f8-fc3f-4142-968f-48031cf5f330
+  sni: hy2-eee-1.aloranode.top
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select

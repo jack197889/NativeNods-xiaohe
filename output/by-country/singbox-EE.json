@@ -6,13 +6,13 @@
     {
       "type": "hysteria2",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe",
-      "server": "nlll.obxodvpn.us",
+      "server": "hy2-eee-1.aloranode.top",
       "server_port": 443,
-      "password": "146d567c-6335-4e63-a8aa-7ec068642440",
+      "password": "b36a14f8-fc3f-4142-968f-48031cf5f330",
       "tls": {
         "enabled": true,
-        "server_name": "nlll.obxodvpn.us",
-        "insecure": true
+        "server_name": "hy2-eee-1.aloranode.top",
+        "insecure": false
       }
     },
     {
