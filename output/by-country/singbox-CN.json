@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇨🇳 CN 01 - xiaohe",
-      "server": "39.108.113.127",
-      "server_port": 10086,
-      "uuid": "d50cc563-0c03-4136-899f-85cbc0b02699",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
+      "server": "103.115.17.239",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "I05yu7QDs1q3eA6j"
     },
     {
       "type": "selector",
