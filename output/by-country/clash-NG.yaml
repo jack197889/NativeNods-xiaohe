@@ -5,13 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇬 尼日利亚 (Nigeria) 01 - xiaohe
-  server: sclass-01.catcat321.com
-  port: 20103
+  server: 167.88.51.43
+  port: 443
   udp: true
-  type: trojan
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  sni: hk.catxstar.com
-  skip-cert-verify: true
+  type: vless
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: SYKJ-zsxnjo1DG-ChEhfq2Smfo-f7CvKKssj9rzuCRw
+    short-id: 2d850fa7
+  servername: ng1.gofizz.in
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
