@@ -27,21 +27,23 @@
     {
       "type": "vless",
       "tag": "🇮🇱 以色列 (Israel) 02 - xiaohe",
-      "server": "45.150.108.180",
+      "server": "87.242.95.170",
       "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-      "flow": "xtls-rprx-vision",
+      "uuid": "49b42507-8781-46a4-8fcc-0b404690c85d",
       "tls": {
         "enabled": true,
-        "server_name": "il1.gofizzin.com",
+        "server_name": "radio-prichal.online",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0",
-          "short_id": "dc1bf50b0e0a"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/checkout/step/allo3fSMLuBu",
+        "headers": {
+          "Host": "radio-prichal.online"
         }
       }
     },
