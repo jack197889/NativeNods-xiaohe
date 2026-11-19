@@ -15,30 +15,38 @@
       "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 02 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9078,
-      "method": "aes-256-cfb",
-      "password": "JCJpbRbQZNw9XFZG"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
-      "server": "195.238.126.20",
       "server_port": 9001,
       "method": "aes-256-cfb",
       "password": "UkXRsXvR6buDMG2Y"
     },
     {
       "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
+      "server": "195.238.126.20",
+      "server_port": 9002,
+      "method": "aes-256-cfb",
+      "password": "b8KkNDjEd5QqFyRm"
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇱🇹 立陶宛 (Lithuania) 04 - xiaohe",
       "server": "195.238.126.20",
-      "server_port": 9068,
+      "server_port": 9011,
       "method": "aes-256-cfb",
-      "password": "mwgRg9hRq3b4Qnwb"
+      "password": "M3t2ZEQcMGRWBjRa"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
+      "server": "195.238.126.20",
+      "server_port": 9078,
+      "method": "aes-256-cfb",
+      "password": "JCJpbRbQZNw9XFZG"
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-      "server": "84.32.83.197",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
+      "server": "84.32.209.118",
       "server_port": 443,
       "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
       "tls": {
@@ -46,7 +54,7 @@
         "server_name": "api-dns-gw.galioncc.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -57,13 +65,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
-      "server": "84.32.248.124",
+      "tag": "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe",
+      "server": "84.32.51.135",
       "server_port": 443,
       "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
       "tls": {
         "enabled": true,
-        "server_name": "net-io-api.galioncc.com",
+        "server_name": "svc-io-mgr.galioncc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -85,7 +93,8 @@
         "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 04 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
+        "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe"
       ]
     },
     {
@@ -97,7 +106,8 @@
         "🇱🇹 立陶宛 (Lithuania) 03 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 04 - xiaohe",
         "🇱🇹 立陶宛 (Lithuania) 05 - xiaohe",
-        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe"
+        "🇱🇹 立陶宛 (Lithuania) 06 - xiaohe",
+        "🇱🇹 立陶宛 (Lithuania) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

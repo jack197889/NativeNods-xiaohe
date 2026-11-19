@@ -12,38 +12,18 @@
       "tls": {
         "enabled": true,
         "server_name": "smart-edge-424.arti98399-1905.workers.dev",
-        "insecure": false
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       },
       "transport": {
         "type": "ws",
-        "path": "/syncfp=chrome",
+        "path": "/sync",
         "headers": {
           "Host": "smart-edge-424.arti98399-1905.workers.dev"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇭🇺 匈牙利 (Hungary) 02 - xiaohe",
-      "server": "212.41.8.76",
-      "server_port": 11443,
-      "uuid": "a628c583-24a8-4ce5-98ad-c6458abf1cc4",
-      "tls": {
-        "enabled": true,
-        "server_name": "s3.storage.selcloud.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LR_FEXsJiKJUtXcmO1UR4Oi2IMmRcaS04D05oooqn28",
-          "short_id": "9edc24fc"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "cas-hu"
       }
     },
     {
@@ -51,16 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe",
-        "🇭🇺 匈牙利 (Hungary) 02 - xiaohe"
+        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe",
-        "🇭🇺 匈牙利 (Hungary) 02 - xiaohe"
+        "🇭🇺 匈牙利 (Hungary) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
