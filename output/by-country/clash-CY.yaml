@@ -19,7 +19,8 @@ proxies:
   flow: xtls-rprx-vision
   tls: true
   servername: 10w0wjw.virtual-network.lol
-  skip-cert-verify: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
