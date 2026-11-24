@@ -1,10 +1,7 @@
 name: Update Subscriptions
 
 on:
-  schedule:
-    # 每天北京时间 02:07 → UTC 18:07
-    - cron: '7 18 * * *'
-  workflow_dispatch:   # 保留这个方便手动触发测试
+  workflow_dispatch:   # 仅手动触发，不再定时自动运行
 
 jobs:
   build:
