@@ -4,16 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "anytls",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "hkgb707.ifastcdncache.com",
-      "server_port": 60852,
-      "uuid": "f8eca8df-a1a5-4918-a194-d34112a3673f",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/"
+      "server": "5641sdds.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
+      "tls": {
+        "enabled": true,
+        "server_name": "5641sdds.df6h451rh.xin",
+        "insecure": true
       }
     },
     {
